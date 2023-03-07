@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+.container-left {
+    width: 20%;
+    background-color: white;
+    padding: 1rem;
+}
+
+.container-right {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 2px;
+}
+
+.menu-item {
+    display: block;
+    margin-bottom: 1rem;
+    background-color: aqua;
+    border: 1px solid;
+    text-align: center;
+}
+
+.homero-img {
+    width: 80%;
+    height: 90%;
+}
+
+/* Bio */
+.img-bio {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-bio {
+    text-align: justify;
+    font-style: italic;
+    line-height: 2;
+}
+
+/* Contacto */
+h2 {
+    margin-top: 0;
+}
+
+.form-control {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.form-button {
+    display: block;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.show-error {
+    display: block;
+}
+
+/* User */
+.user-img {
+    display: block;
+    margin: 0 auto;
+}
+
+#get-user {
+    display: block;
+    margin: 0 auto;
+}
+
+.user {
+    text-align: center;
+    margin: 0 auto;
+}

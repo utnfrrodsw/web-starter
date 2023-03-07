@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Web Starter</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="container-left">
+            <div class="menu">
+                <a class="menu-item" href="/">Home</a>
+                <a class="menu-item" href="bio.html">Bio</a>
+                <a class="menu-item" href="contacto.html">Contacto</a>
+                <a class="menu-item" href="mrx.html">Mr. X</a>
+            </div>
+        </div>
+        <div class="container-right">
+            <h2>Contactate con nosotros y te responderemos a la brevedad</h2>
+
+            <form>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button class="form-button" type="submit" id="submit">Enviar</button>
+
+                <span class="error" id="error">Debe ingresar todos los campos obligatorios</span>
+            </form>
+
+            <div class="user-message-container">
+                <p id="user-name"></p>
+                <p id="user-email"></p>
+                <p id="user-message"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
